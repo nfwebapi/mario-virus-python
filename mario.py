@@ -36,6 +36,4 @@ def display_gif_with_sound(gif_path, sound_path):
     except Exception as e:
         print(e)
 
-
-os.system('del "temp.bmp"')
 display_gif_with_sound("example.gif", "example.wav")
