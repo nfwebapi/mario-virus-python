@@ -32,8 +32,8 @@ def display_gif_with_sound(gif_path, sound_path):
             win32gui.DeleteDC(memdc)
             win32gui.ReleaseDC(hwnd, hdc)
 
-            win32api.Sleep(7)
+            win32api.Sleep(25)
     except Exception as e:
         print(e)
 
-display_gif_with_sound("https://github.com/nfwebapi/mario-virus-python/blob/main/example.gif", "https://github.com/nfwebapi/mario-virus-python/blob/main/example.wav")
+display_gif_with_sound("./example.gif", "./example.wav")
